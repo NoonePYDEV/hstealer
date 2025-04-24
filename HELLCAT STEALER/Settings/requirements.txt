@@ -1,0 +1,12 @@
+pillow
+customtkinter
+requests
+pyautogui
+uuid
+pycryptodomex
+datetime
+colorama
+platformdirs
+psutil
+plyer
+pyinstaller
