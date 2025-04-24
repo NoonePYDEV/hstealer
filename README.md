@@ -34,6 +34,10 @@ Hellcat Stealer is an easy to use Python stealer with GUI Builder.
 ▫️Shutdown computer
 ▫️Fake error (title, message are customizable)
 
+**Receive methods**
+
+You can use a **Discord webhook** or a **Telegram bot** to receive the infos ! (I personnaly advise a Telegram bot to avoid Discord bannishment)
+
 ---
 
 ⚠️ **WARNING:** This repo is for educationnal and preventionnal purposes only. Its author is absolutely not responsible of your action with this tool.
