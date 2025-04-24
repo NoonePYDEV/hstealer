@@ -11,7 +11,7 @@ Hellcat Stealer is an easy to use Python stealer with GUI Builder.
 **Steal**
 
 ▫️Browers (passwords, history for Google Chrome and Microsoft Edge)
-<
+<br>
 ▫️Clipboard
 ▫️Sessions (Telegram, Epic Games, Riot Games, Steam)
 ▫️Files (pdf, ico, png, word, txt, webp,...)
