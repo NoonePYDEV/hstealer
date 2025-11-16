@@ -8,6 +8,8 @@
   <h1>🐍 Hellcat Stealer</h1>
   <hr>
 
+  <p><strong>Update : </strong> Bro dont use this chatgpt ahh stealer that was one of my first project</p> 
+
   <p><strong>Hellcat Stealer</strong> is an easy to use Python stealer with GUI Builder.</p>
 
   <hr>
